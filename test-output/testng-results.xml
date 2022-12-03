@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-02T21:52:48 IST" name="Suite" finished-at="2022-12-02T21:53:05 IST" duration-ms="17375">
+    <groups>
+    </groups>
+    <test started-at="2022-12-02T21:52:48 IST" name="loginTest" finished-at="2022-12-02T21:53:05 IST" duration-ms="17375">
+      <class name="basetest.LoginTest">
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:basetest.LoginTest@34a3d150]" started-at="2022-12-02T21:52:48 IST" name="preSetup" finished-at="2022-12-02T21:52:48 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:basetest.LoginTest@34a3d150]" started-at="2022-12-02T21:52:48 IST" name="setup" finished-at="2022-12-02T21:53:01 IST" duration-ms="12744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:basetest.LoginTest@34a3d150]" started-at="2022-12-02T21:53:01 IST" name="verifyLogin" finished-at="2022-12-02T21:53:05 IST" duration-ms="4010" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr454705]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jatArym]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:basetest.LoginTest@34a3d150]" started-at="2022-12-02T21:53:05 IST" name="teardown" finished-at="2022-12-02T21:53:05 IST" duration-ms="533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- basetest.LoginTest -->
+    </test> <!-- loginTest -->
+  </suite> <!-- Suite -->
+</testng-results>
